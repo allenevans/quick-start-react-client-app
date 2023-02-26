@@ -1,6 +1,6 @@
-# quick-start  
+# Quick start React client app  
 
-Description
+A simple react application template with some basics preconfigured. 
 
 ## Getting started
 ```console
@@ -9,6 +9,9 @@ yarn
 
 # run development app
 yarn start
+
+# linting
+yarn lint
 
 # tests
 yarn test
