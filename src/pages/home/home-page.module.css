@@ -1,3 +1,11 @@
 main.main {
-  /* placeholder */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > * {
+    flex: 0;
+  }
+
+  text-align: center;
 }

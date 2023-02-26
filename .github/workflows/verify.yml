@@ -3,7 +3,7 @@ name: verify
 on: push
 
 jobs:
-  deploy:
+  verify:
     runs-on: ubuntu-latest
 
     strategy:
@@ -26,6 +26,9 @@ jobs:
 
       - name: Configure
         run: npm install -g yarn
+
+      - name: Bootstrap
+        run: yarn
 
       - name: Build
         run: NODE_ENV=production yarn build
